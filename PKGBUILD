@@ -1,6 +1,6 @@
-# Maintainer: Nico <d3sox at protonmail dot com>
+# Maintainer: Tony <tonydu121 at hotmail dot com>
 pkgname=fluent-reader
-pkgver=1.1.0
+pkgver="1.1.0.tony.v0.1"
 pkgrel=1
 _pkgname="${pkgname}-${pkgver}"
 pkgdesc='Modern desktop RSS reader built with Electron, React, and Fluent UI'
@@ -9,9 +9,9 @@ url='https://hyliu.me/fluent-reader/'
 license=('BSD')
 depends=('hicolor-icon-theme')
 makedepends=('nodejs' 'node-gyp' 'npm')
-source=("https://github.com/yang991178/fluent-reader/archive/v${pkgver}.tar.gz"
+source=("https://github.com/tonyd33/fluent-reader/archive/v${pkgver}.tar.gz"
         'fluent-reader.desktop')
-sha256sums=('3b4a4e02cd72863137fc836cf666bccf8c9d97b4b6fa861fba2ee23da0c21bc4'
+sha256sums=('10773b840ebfe2b27441ca7a639d8317c7354874f100906f9d7cdfb282e5c22f'
             '8094dd526fcb3bd67913a20224fa8c167068d58b8e0ba51b74e8b74c23f73026')
 
 build() {
